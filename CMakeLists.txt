@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 4.4)
-project(_)
+cmake_minimum_required(VERSION 4.2)
+project(webserver)
 
 set(CMAKE_CXX_STANDARD 20)
 
