@@ -113,37 +113,6 @@ The event loop manages client connections and socket I/O, while worker threads h
 
 Actual measurements will be published with their hardware, configuration, and test conditions.
 
-## 📁 Project Structure
-
-```text
-atlas/
-├── 📂 include/
-│   ├── server/
-│   ├── network/
-│   ├── http/
-│   ├── concurrency/
-│   ├── handlers/
-│   └── utils/
-├── 📂 src/
-│   ├── server/
-│   ├── network/
-│   ├── http/
-│   ├── concurrency/
-│   ├── handlers/
-│   └── utils/
-├── 🧪 tests/
-│   ├── unit/
-│   └── integration/
-├── 📊 benchmarks/
-├── 🌐 public/
-├── 📚 docs/
-├── ⚙️ CMakeLists.txt
-├── 🐳 Dockerfile
-├── 🐳 docker-compose.yml
-├── 📄 .gitignore
-└── 📖 README.md
-```
-
 ## 🗺️ Development Roadmap
 
 | Phase | Focus | Status |
